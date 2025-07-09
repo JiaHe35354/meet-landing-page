@@ -1,0 +1,146 @@
+:root {
+  --color-cyan-dark: #4d96a9;
+  --color-cyan-light: #8fe3f9;
+  --color-purple-dark: #855fb1;
+  --color-purple-light: #d9b8ff;
+  --color-grey-dark: #28283d;
+  --color-grey-medium: #87879d;
+  --color-grey-light: #d1d1df;
+  --color-white: #fafafa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  text-align: center;
+  min-height: 100vh;
+
+  /* display: flex;
+  justify-content: center; */
+}
+
+/* LAYOUT */
+.container {
+  max-width: 144rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* TYPOGRAPHY */
+.heading-primary {
+  font-size: 6.4rem;
+  line-height: 1.1;
+  color: var(--color-grey-dark);
+  font-weight: 900;
+  margin-bottom: 3.2rem;
+}
+
+.paragraph {
+  font-size: 1.8rem;
+  line-height: 1.5;
+
+  color: var(--color-grey-medium);
+}
+
+.heading-secondary {
+  font-size: 4rem;
+  line-height: 1.1;
+  font-weight: 900;
+}
+
+.heading-secondary--main {
+  color: var(--color-grey-dark);
+  margin: 0 5rem 3.2rem;
+}
+
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.1;
+  letter-spacing: 4px;
+  color: var(--color-cyan-dark);
+  margin-bottom: 1.6rem;
+}
+
+/* REUSABLE COMPONENTS */
+.btn:link,
+.btn:visited {
+  color: var(--color-white);
+  text-decoration: none;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  font-weight: 800;
+  padding: 1.5rem 4rem;
+  border-radius: 100px;
+  transition: all 0.3s;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.7rem;
+}
+
+.btn-cyan {
+  background-color: var(--color-cyan-dark);
+}
+
+.btn-cyan:hover,
+.btn-cyan:active {
+  background-color: hsl(192, 54%, 66%);
+}
+
+.btn-cyan span {
+  color: var(--color-cyan-light);
+}
+
+.btn-purple {
+  background-color: var(--color-purple-dark);
+}
+
+.btn-purple:hover,
+.btn-purple:active {
+  background-color: hsl(266, 42%, 67%);
+}
+
+.step-indicator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  background-color: var(--color-white);
+  width: 5.6rem;
+  height: 5.6rem;
+  border: 1px solid var(--color-grey-light);
+  border-radius: 50%;
+  font-weight: 800;
+  color: var(--color-grey-medium);
+  font-size: 1.6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  width: 1px;
+  height: 80px;
+  background-color: var(--color-grey-light);
+}

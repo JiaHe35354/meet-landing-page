@@ -1,0 +1,160 @@
+/* 87.5em = 1400px */
+@media (min-width: 87.5em) {
+  .container {
+    overflow: visible;
+  }
+}
+
+/* 84em = 1344px */
+@media (max-width: 84em) {
+  .hero {
+    column-gap: 2rem;
+  }
+
+  .gallery {
+    gap: 2.4rem;
+  }
+}
+
+/* 70em = 1120px */
+@media (max-width: 70em) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7.2rem;
+  }
+
+  .hero-img--responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .hero-img-box--left,
+  .hero-img-box--right {
+    display: none;
+  }
+
+  .hero-text-box {
+    max-width: 44.8rem;
+  }
+
+  .hero-text-box .paragraph {
+    margin-bottom: 2.4rem;
+  }
+
+  .heading-primary {
+    font-size: 4.8rem;
+    margin-bottom: 2.4rem;
+    padding: 0 5rem;
+  }
+
+  .header {
+    padding: 4.8rem 0 0;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .heading-secondary--main {
+    margin-left: 2.8rem;
+    margin-right: 2.8rem;
+  }
+
+  .heading-tertiary {
+    font-size: 1.4rem;
+  }
+
+  .paragraph {
+    font-size: 1.6rem;
+  }
+
+  .main-content {
+    padding: 5.6rem 0 6.4rem;
+    max-width: 68rem;
+  }
+
+  .main-text {
+    max-width: 50.4rem;
+  }
+
+  .footer {
+    padding: 6.4rem 0;
+  }
+
+  .footer-container {
+    margin: 0;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 2.4rem;
+  }
+
+  .heading-secondary--footer,
+  .paragraph--footer {
+    max-width: 50.4rem;
+  }
+
+  .btn-footer {
+    align-self: center;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 31.25em) {
+  .hero {
+    margin-bottom: 3.2rem;
+  }
+
+  .hero-img--responsive img {
+    transform: scale(1.15);
+  }
+
+  .hero-text-box {
+    max-width: 30.5rem;
+  }
+
+  .heading-primary {
+    font-size: 4rem;
+    padding: 0 2rem;
+  }
+
+  .btn-group {
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+
+  .main-content {
+    padding-top: 3.2rem;
+    margin-left: 3.2rem;
+    margin-right: 3.2rem;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.6rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.2rem;
+  }
+
+  .heading-secondary--main {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .heading-tertiary {
+    font-size: 1.2rem;
+  }
+
+  .footer {
+    padding: 6.4rem 3.2rem;
+  }
+}
