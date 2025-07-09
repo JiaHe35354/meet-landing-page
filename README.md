@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution]()
-- Live Site URL: [Live site URL]()
+- Solution URL: [My solution](https://www.frontendmentor.io/solutions/responsive-landing-page-with-css-grid-and-flexbox-45x9ovAJ_r)
+- Live Site URL: [Live site URL](https://meet-landing-page-jiahe.netlify.app/)
 
 ## My process
 
