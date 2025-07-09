@@ -126,20 +126,20 @@ body {
 
 .number {
   background-color: var(--color-white);
-  width: 5.6rem;
-  height: 5.6rem;
+  width: 56px;
+  height: 56px;
   border: 1px solid var(--color-grey-light);
   border-radius: 50%;
   font-weight: 800;
   color: var(--color-grey-medium);
-  font-size: 1.6rem;
+  font-size: 16px;
 
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.circle {
+.line {
   width: 1px;
   height: 80px;
   background-color: var(--color-grey-light);
